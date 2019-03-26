@@ -10,7 +10,7 @@ public class WoodDuck extends Duck {
 
     public WoodDuck(){
         flyBehavior = new FlyWithWings();
-        quackBeahvior = new Squeak();
+        quackBeahvior = new Quack();
     }
 
     @Override

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="169.5">com.design.strategy.Quack</node>
+    <node x="276.875" y="0.0">com.design.strategy.QuackBeahvior</node>
+    <node x="555.0" y="169.5">com.design.strategy.Squeak</node>
+    <node x="492.625" y="319.0">com.design.strategy.BabyDuck</node>
+    <node x="160.0" y="169.5">com.design.strategy.FlyWithWings</node>
+    <node x="436.875" y="0.0">com.design.strategy.FlyBehavior</node>
+    <node x="305.0" y="123.0">com.design.strategy.Duck</node>
+    <node x="715.0" y="169.5">com.design.strategy.FlyNoWay</node>
+    <node x="205.125" y="319.0">com.design.strategy.WoodDuck</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.design.strategy.Duck" target="com.design.strategy.QuackBeahvior">
+      <point x="-86.25" y="-73.0" />
+      <point x="333.75" y="83.0" />
+      <point x="329.375" y="83.0" />
+      <point x="-17.5" y="26.5" />
+    </edge>
+    <edge source="com.design.strategy.FlyNoWay" target="com.design.strategy.FlyBehavior">
+      <point x="0.0" y="-26.5" />
+      <point x="774.0" y="73.0" />
+      <point x="540.125" y="73.0" />
+      <point x="44.25" y="26.5" />
+    </edge>
+    <edge source="com.design.strategy.Squeak" target="com.design.strategy.QuackBeahvior">
+      <point x="0.0" y="-26.5" />
+      <point x="625.0" y="83.0" />
+      <point x="399.375" y="83.0" />
+      <point x="52.5" y="26.5" />
+    </edge>
+    <edge source="com.design.strategy.Quack" target="com.design.strategy.QuackBeahvior">
+      <point x="0.0" y="-26.5" />
+      <point x="70.0" y="83.0" />
+      <point x="294.375" y="83.0" />
+      <point x="-52.5" y="26.5" />
+    </edge>
+    <edge source="com.design.strategy.FlyWithWings" target="com.design.strategy.FlyBehavior">
+      <point x="0.0" y="-26.5" />
+      <point x="222.5" y="93.0" />
+      <point x="451.625" y="93.0" />
+      <point x="-44.25" y="26.5" />
+    </edge>
+    <edge source="com.design.strategy.Duck" target="com.design.strategy.FlyBehavior">
+      <point x="28.75" y="-73.0" />
+      <point x="448.75" y="103.0" />
+      <point x="481.125" y="103.0" />
+      <point x="-14.75" y="26.5" />
+    </edge>
+    <edge source="com.design.strategy.BabyDuck" target="com.design.strategy.Duck">
+      <point x="-54.75" y="-38.5" />
+      <point x="510.875" y="299.0" />
+      <point x="448.75" y="299.0" />
+      <point x="28.75" y="73.0" />
+    </edge>
+    <edge source="com.design.strategy.BabyDuck" target="com.design.strategy.FlyNoWay">
+      <point x="54.75" y="-38.5" />
+      <point x="620.375" y="299.0" />
+      <point x="774.0" y="299.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="com.design.strategy.BabyDuck" target="com.design.strategy.Squeak">
+      <point x="18.25" y="-38.5" />
+      <point x="583.875" y="289.0" />
+      <point x="625.0" y="289.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="com.design.strategy.WoodDuck" target="com.design.strategy.Duck">
+      <point x="54.75" y="-38.5" />
+      <point x="332.875" y="299.0" />
+      <point x="391.25" y="299.0" />
+      <point x="-28.75" y="73.0" />
+    </edge>
+    <edge source="com.design.strategy.WoodDuck" target="com.design.strategy.FlyWithWings">
+      <point x="-18.25" y="-38.5" />
+      <point x="259.875" y="289.0" />
+      <point x="222.5" y="289.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="com.design.strategy.WoodDuck" target="com.design.strategy.Quack">
+      <point x="-54.75" y="-38.5" />
+      <point x="223.375" y="299.0" />
+      <point x="70.0" y="299.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="416.5" y="203.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
